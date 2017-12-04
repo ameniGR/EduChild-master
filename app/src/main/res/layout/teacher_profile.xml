@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/Picture1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/gradientbackground2"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="235dp"
+                android:layout_height="wrap_content"
+                android:scaleX="1dp"
+                android:shadowColor="@color/colorPrimaryDark"
+                android:text="@string/TeacherProfile"
+                android:textColor="@color/colorAccent"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="124dp"
+                tools:layout_editor_absoluteY="6dp" />
+
+            <TextView
+                android:id="@+id/parmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/parent_mail_address"
+                android:textColor="@color/colorAccent"
+                android:textSize="23dp"
+                tools:layout_editor_absoluteX="124dp"
+                tools:layout_editor_absoluteY="60dp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="124dp"
+                android:layout_height="123dp"
+                app:srcCompat="@drawable/parentcircular"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+        </android.support.constraint.ConstraintLayout>
+    </RelativeLayout>
+
+    <GridView
+        android:layout_width="344dp"
+        android:layout_height="401dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="158dp" />
+
+
+</android.support.constraint.ConstraintLayout>

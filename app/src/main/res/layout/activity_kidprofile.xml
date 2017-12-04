@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/ic_launcher_background"
+    android:background="@drawable/pic"
     tools:context="com.example.asus.educhild.kidprofile">
 
     <RelativeLayout
@@ -30,27 +30,34 @@
             android:textColor="@color/colorAccent"
             android:textSize="30sp"></TextView>
 
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="344dp"
+        android:layout_height="175dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="350dp">
+
+        </TableLayout>
+
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginRight="15dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
             android:gravity="right"
             android:text="@string/KidProfile"
             android:textColor="@color/colorAccent"
-            android:textSize="30sp" />
+            android:textSize="30sp"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="328dp" />
 
-        <ScrollView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <TableLayout
-                android:layout_width="match_parent"
-                android:layout_height="350dp">
-
-            </TableLayout>
-
-        </ScrollView>
-    </RelativeLayout>
+    </ScrollView>
 
 
 </android.support.constraint.ConstraintLayout>

@@ -4,6 +4,7 @@
     <string name="parent_phone_number">Phone Number</string>
     <string name="parent_mail_address">android@ecole.tn</string>
     <string name="KidProfile">KidName</string>
+    <string name="TeacherProfile">Teacher's Name</string>
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
